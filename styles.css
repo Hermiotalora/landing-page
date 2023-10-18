@@ -1,0 +1,117 @@
+/* Estilos para la pagina */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ffffffcb;
+    color: #000000;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.header-image {
+    display: block;
+    margin: 0 auto; 
+    max-width: 60%; 
+}
+
+
+h1 {
+    margin: 30;
+    font-size: 24px;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: #000000e1;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+section {
+    padding: 20px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+#courses-list {
+    list-style: none;
+    padding: 0;
+}
+
+#courses-list li {
+    margin-bottom: 10px;
+}
+
+#registration-form input,
+#registration-form select,
+#registration-form button {
+    margin-bottom: 10px;
+    display: block;
+    width: 100%;
+}
+
+/* Estilos de la promocion */
+
+
+#promotion {
+    background-color: rgba(241, 241, 241, 0.8);
+   
+    background-image: url('people.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff; 
+    font-size: 24px;
+    font-weight: bold;
+    padding: 40px;
+    text-shadow: 2px 2px 4px rgba(10, 10, 10, 0.5);
+}
+
+
+/* Estilos adicionales para la sección de inscripción */
+
+
+#registration-form {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #f0f0f0; /* Color de fondo */
+    padding: 20px; /* Espaciado interno */
+    border: 1px solid #ccc; /* Borde */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+    text-align: center; /* Alineación de contenido */
+}
+
+
+/* Estilo para los campos de entrada de texto y el botón */
+#registration-form input,
+#registration-form select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#registration-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #337ab7; 
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#registration-form button:hover {
+    background-color: #235a9e; 
+}

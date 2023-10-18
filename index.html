@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>ISFT151 - Instituto Superior de Formacion Tecnica 151</title>
+</head>
+
+<body>
+    <header>
+        <img src="isft.jpg" alt="isft" class="header-image">
+        <h1>ISFT151</h1>
+        <p>¡Descubre Tu Futuro! Te ofrecemos un mundo de posibilidades con una amplia variedad de carreras diseñadas para inspirar y transformar.</p>
+        <nav>
+            <a href="#promotion">Promoción</a>
+            <a href="#courses">Carreras</a>
+            <a href="#registration">Inscripción</a>
+        </nav>
+    </header>
+    
+    <div class="content">
+
+
+        <section id="promotion">
+            <h2>Promoción</h2>
+            <p>Bienvenido al Instituto Superior de Formación Técnica 151. Descubre nuestras carreras y comienza tu camino hacia un gran éxito profesional!</p>
+        </section>
+    </div>
+
+    <section id="courses">
+        <h2>Carreras</h2>
+        <ul id="courses-list">
+
+            <li>
+                        <h3>Tecnicatura Superior en Analisis de Sistemas</h3>
+                        <p>El Analista de Sistemas estará capacitado para planificar y gestionar un proyecto de
+                            desarrollo, así como también para diagnosticar problemas y diseñar soluciones
+                            informáticas de las organizaciones que así lo requieran. Estas competencias serán 
+                            desarrolladas según las incumbencias y las normas técnicas y legales que rigen su
+                            campo.</p>
+                        <a href="formulario-analisis-sistemas.html">Formulario de Inscripcion</a>
+                    </li>
+            <li><a href="00SISTEMAS.pdf" target="_blank">Plan de Estudio - Tecnicatura Superior en Analisis de Sistemas</a></li>
+            
+
+             
+                    <li>
+                        <h3>Tecnicatura Superior en Gestion Ambiental</h3>
+                        <p>Actualmente, el mayor conocimiento de la participación de factores ambientales en el
+                            deterioro de las condiciones de vida, incluidos los riesgos para la salud humana,
+                            presentes en los ambientes laborales y generales, vuelve imperativa la revisión de los
+                            diseños curriculares vigentes, con el fin de formar recursos humanos calificados en la
+                            gestión del ambiente, capaces de adecuarse a las nuevas demandas de la población.</p>
+                        <a href="formulario-gestion-ambiental.html">Formulario de Inscripcion</a>
+                    </li>
+
+            <li><a href="01-GESTION_AMBIENTAL_Y_SALUD.pdf" target="_blank">Plan de Estudio - Tecnicatura Superior en Gestion Ambiental</a></li>
+            
+            
+
+            <li>
+                <h3>Tecnicatura Superior en Acompañamiento Terapeutico</h3>
+                <p>La misma tiene el propósito de formar profesionales capaces de trabajar en las áreas de
+                    emergencias relacionadas a la organización, preparación, asistencia, investigación y recuperación, 
+                    convirtiéndose en un agente que incorpore sus habilidades al sistema de emergencias.</p>
+                <a href="formulario-gestion-ambiental.html">Formulario de Inscripcion</a>
+            </li>
+
+            
+            <li><a href="04-EMERGENCIAS_ANEXO.pdf" target="_blank">Plan de Estudio - Tecnicatura Superior en Emergencias de Salud</a></li>
+            
+            
+            <li>
+                <h3>Tecnicatura Superior en Logistica</h3>
+                <p>El presente diseño reconoce la necesidad de formar personas capaces de gestionar,
+                    diseñar, implementar, evaluar y optimizar los procesos que componen la
+                    administración del flujo de materiales y servicios desde el proveedor hasta el cliente. </p>
+                <a href="formulario-gestion-ambiental.html">Formulario de Inscripcion</a>
+            </li>
+            
+            <li><a href="05-LOGISTICA-.pdf" target="_blank">Plan de Estudio - Tecnicatura Superior en Logistica</a></li>
+            
+            
+            <li>
+                <h3>Tecnicatura Superior en Industria Textil e Indumentaria</h3>
+                <p>La Tecnicatura Superior en Industria Textil e Indumentaria está diseñada para preparar a los estudiantes para ingresar al mundo 
+                    laboral de la industria textil y de la confección, así como para emprender sus propios proyectos dentro de este campo. 
+                    Es una carrera versátil que puede abrir puertas a una amplia gama de 
+                    oportunidades profesionales en un sector que abarca desde la moda hasta la producción de textiles técnicos y funcionales.</p>
+                <a href="formulario-gestion-ambiental.html">Formulario de Inscripcion</a>
+            </li>
+
+            
+            <li><a href="06-TEC_SUP_EN_INDUSTRIA_TEXTIL-E-INDUMENTARIA.pdf" target="_blank">Plan de Estudio - Tecnicatura Superior en  Industria Textil e Indumentaria</a></li>
+       
+
+    </ul>
+    </section>
+
+    <section id="registration">
+        <h2>Inscripción</h2>
+        <p>Completa el formulario de inscripcion para la carrera de tu eleccion:</p>
+        <form id="registration-form">
+            <select id="course-select" required>
+                <option value="" disabled selected>Selecciona una carrera</option>
+                
+            </select>
+            <input type="text" id="name-input" placeholder="Nombre" required>
+            <input type="text" id="email-input" placeholder="Email" required>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
